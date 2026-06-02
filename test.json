@@ -1,0 +1,2749 @@
+[
+  {
+    "id": "ns_App\\FullTest",
+    "kind": "namespace",
+    "name": "App\\FullTest",
+    "fqn": "App\\FullTest",
+    "line": 5,
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\createUser",
+    "kind": "function",
+    "name": "createUser",
+    "fqn": "App\\FullTest\\createUser",
+    "line": 855,
+    "returnType": "User",
+    "parameters": [
+      {
+        "name": "$email",
+        "type": "string"
+      },
+      {
+        "name": "$name",
+        "type": "string"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\findUserById",
+    "kind": "function",
+    "name": "findUserById",
+    "fqn": "App\\FullTest\\findUserById",
+    "line": 863,
+    "returnType": "?User",
+    "parameters": [
+      {
+        "name": "$id",
+        "type": "?int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\coerce",
+    "kind": "function",
+    "name": "coerce",
+    "fqn": "App\\FullTest\\coerce",
+    "line": 871,
+    "returnType": "string|int",
+    "parameters": [
+      {
+        "name": "$value",
+        "type": "string|int|float"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\processCountableIterable",
+    "kind": "function",
+    "name": "processCountableIterable",
+    "fqn": "App\\FullTest\\processCountableIterable",
+    "line": 879,
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "$col",
+        "type": "Countable&IteratorAggregate"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\sumAll",
+    "kind": "function",
+    "name": "sumAll",
+    "fqn": "App\\FullTest\\sumAll",
+    "line": 887,
+    "returnType": "float",
+    "parameters": [
+      {
+        "name": "$values",
+        "type": "float ..."
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\trimInPlace",
+    "kind": "function",
+    "name": "trimInPlace",
+    "fqn": "App\\FullTest\\trimInPlace",
+    "line": 895,
+    "returnType": "void",
+    "parameters": [
+      {
+        "name": "$str",
+        "type": "string &"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\getGlobalBuffer",
+    "kind": "function",
+    "name": "getGlobalBuffer",
+    "fqn": "App\\FullTest\\getGlobalBuffer",
+    "line": 903,
+    "returnType": "string",
+    "parameters": [],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\bail",
+    "kind": "function",
+    "name": "bail",
+    "fqn": "App\\FullTest\\bail",
+    "line": 912,
+    "returnType": "never",
+    "parameters": [
+      {
+        "name": "$message",
+        "type": "string"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\healthCheck",
+    "kind": "function",
+    "name": "healthCheck",
+    "fqn": "App\\FullTest\\healthCheck",
+    "line": 921,
+    "returnType": "bool",
+    "parameters": [],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\fibonacci",
+    "kind": "function",
+    "name": "fibonacci",
+    "fqn": "App\\FullTest\\fibonacci",
+    "line": 929,
+    "returnType": "int",
+    "parameters": [
+      {
+        "name": "$n",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\rangeGenerator",
+    "kind": "function",
+    "name": "rangeGenerator",
+    "fqn": "App\\FullTest\\rangeGenerator",
+    "line": 938,
+    "returnType": "Generator",
+    "parameters": [
+      {
+        "name": "$start",
+        "type": "int"
+      },
+      {
+        "name": "$end",
+        "type": "int"
+      },
+      {
+        "name": "$step",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\pipe",
+    "kind": "function",
+    "name": "pipe",
+    "fqn": "App\\FullTest\\pipe",
+    "line": 948,
+    "returnType": "mixed",
+    "parameters": [
+      {
+        "name": "$value",
+        "type": "mixed"
+      },
+      {
+        "name": "$fns",
+        "type": "callable ..."
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "func_App\\FullTest\\classify",
+    "kind": "function",
+    "name": "classify",
+    "fqn": "App\\FullTest\\classify",
+    "line": 956,
+    "returnType": "string",
+    "parameters": [
+      {
+        "name": "$value",
+        "type": "mixed"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "interface_App\\FullTest\\Identifiable",
+    "kind": "interface",
+    "name": "Identifiable",
+    "fqn": "App\\FullTest\\Identifiable",
+    "line": 49,
+    "endLine": 56,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Identifiable::getId",
+        "kind": "method",
+        "name": "getId",
+        "fqn": "App\\FullTest\\Identifiable::getId",
+        "line": 54,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int;",
+        "parameters": [],
+        "parent": "Identifiable",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\Identifiable::getUuid",
+        "kind": "method",
+        "name": "getUuid",
+        "fqn": "App\\FullTest\\Identifiable::getUuid",
+        "line": 55,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string;",
+        "parameters": [],
+        "parent": "Identifiable",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "interface_App\\FullTest\\EntityInterface",
+    "kind": "interface",
+    "name": "EntityInterface",
+    "fqn": "App\\FullTest\\EntityInterface",
+    "line": 61,
+    "endLine": 65,
+    "parent": "Identifiable",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\EntityInterface::toArray",
+        "kind": "method",
+        "name": "toArray",
+        "fqn": "App\\FullTest\\EntityInterface::toArray",
+        "line": 63,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array;",
+        "parameters": [],
+        "parent": "EntityInterface",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\EntityInterface::fromArray",
+        "kind": "method",
+        "name": "fromArray",
+        "fqn": "App\\FullTest\\EntityInterface::fromArray",
+        "line": 64,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static;",
+        "parameters": [
+          {
+            "name": "$data",
+            "type": "array"
+          }
+        ],
+        "parent": "EntityInterface",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "interface_App\\FullTest\\RepositoryInterface",
+    "kind": "interface",
+    "name": "RepositoryInterface",
+    "fqn": "App\\FullTest\\RepositoryInterface",
+    "line": 72,
+    "endLine": 87,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\RepositoryInterface::find",
+        "kind": "method",
+        "name": "find",
+        "fqn": "App\\FullTest\\RepositoryInterface::find",
+        "line": 75,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "?object;",
+        "parameters": [
+          {
+            "name": "$id",
+            "type": "int"
+          }
+        ],
+        "parent": "RepositoryInterface",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\RepositoryInterface::save",
+        "kind": "method",
+        "name": "save",
+        "fqn": "App\\FullTest\\RepositoryInterface::save",
+        "line": 78,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool;",
+        "parameters": [
+          {
+            "name": "$entity",
+            "type": "object"
+          }
+        ],
+        "parent": "RepositoryInterface",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\RepositoryInterface::delete",
+        "kind": "method",
+        "name": "delete",
+        "fqn": "App\\FullTest\\RepositoryInterface::delete",
+        "line": 80,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool;",
+        "parameters": [
+          {
+            "name": "$id",
+            "type": "int"
+          }
+        ],
+        "parent": "RepositoryInterface",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\RepositoryInterface::findAll",
+        "kind": "method",
+        "name": "findAll",
+        "fqn": "App\\FullTest\\RepositoryInterface::findAll",
+        "line": 83,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array;",
+        "parameters": [],
+        "parent": "RepositoryInterface",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\RepositoryInterface::cursor",
+        "kind": "method",
+        "name": "cursor",
+        "fqn": "App\\FullTest\\RepositoryInterface::cursor",
+        "line": 86,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "iterable;",
+        "parameters": [],
+        "parent": "RepositoryInterface",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "interface_App\\FullTest\\TypeShowcase",
+    "kind": "interface",
+    "name": "TypeShowcase",
+    "fqn": "App\\FullTest\\TypeShowcase",
+    "line": 92,
+    "endLine": 103,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsNever",
+        "kind": "method",
+        "name": "returnsNever",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsNever",
+        "line": 94,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "never;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsMixed",
+        "kind": "method",
+        "name": "returnsMixed",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsMixed",
+        "line": 95,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsStatic",
+        "kind": "method",
+        "name": "returnsStatic",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsStatic",
+        "line": 96,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsSelf",
+        "kind": "method",
+        "name": "returnsSelf",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsSelf",
+        "line": 97,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "self;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsVoid",
+        "kind": "method",
+        "name": "returnsVoid",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsVoid",
+        "line": 98,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsNullable",
+        "kind": "method",
+        "name": "returnsNullable",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsNullable",
+        "line": 99,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "?string;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsUnion",
+        "kind": "method",
+        "name": "returnsUnion",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsUnion",
+        "line": 100,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string|int|float;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsIntersection",
+        "kind": "method",
+        "name": "returnsIntersection",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsIntersection",
+        "line": 101,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "Countable&IteratorAggregate;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TypeShowcase::returnsNullableUnion",
+        "kind": "method",
+        "name": "returnsNullableUnion",
+        "fqn": "App\\FullTest\\TypeShowcase::returnsNullableUnion",
+        "line": 102,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string|int|null;",
+        "parameters": [],
+        "parent": "TypeShowcase",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "trait_App\\FullTest\\TimestampTrait",
+    "kind": "trait",
+    "name": "TimestampTrait",
+    "fqn": "App\\FullTest\\TimestampTrait",
+    "line": 110,
+    "endLine": 135,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\TimestampTrait::getCreatedAt",
+        "kind": "method",
+        "name": "getCreatedAt",
+        "fqn": "App\\FullTest\\TimestampTrait::getCreatedAt",
+        "line": 115,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "?DateTime",
+        "parameters": [],
+        "parent": "TimestampTrait",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TimestampTrait::setCreatedAt",
+        "kind": "method",
+        "name": "setCreatedAt",
+        "fqn": "App\\FullTest\\TimestampTrait::setCreatedAt",
+        "line": 120,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$dt",
+            "type": "DateTime"
+          }
+        ],
+        "parent": "TimestampTrait",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TimestampTrait::touch",
+        "kind": "method",
+        "name": "touch",
+        "fqn": "App\\FullTest\\TimestampTrait::touch",
+        "line": 125,
+        "visibility": "protected",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [],
+        "parent": "TimestampTrait",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\TimestampTrait::resetTimestamps",
+        "kind": "method",
+        "name": "resetTimestamps",
+        "fqn": "App\\FullTest\\TimestampTrait::resetTimestamps",
+        "line": 130,
+        "visibility": "private",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [],
+        "parent": "TimestampTrait",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "trait_App\\FullTest\\LoggableTrait",
+    "kind": "trait",
+    "name": "LoggableTrait",
+    "fqn": "App\\FullTest\\LoggableTrait",
+    "line": 140,
+    "endLine": 157,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\LoggableTrait::log",
+        "kind": "method",
+        "name": "log",
+        "fqn": "App\\FullTest\\LoggableTrait::log",
+        "line": 147,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$level",
+            "type": "string"
+          },
+          {
+            "name": "$message",
+            "type": "string"
+          }
+        ],
+        "parent": "LoggableTrait",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\LoggableTrait::getLogCount",
+        "kind": "method",
+        "name": "getLogCount",
+        "fqn": "App\\FullTest\\LoggableTrait::getLogCount",
+        "line": 153,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [],
+        "parent": "LoggableTrait",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "trait_App\\FullTest\\AuditTrait",
+    "kind": "trait",
+    "name": "AuditTrait",
+    "fqn": "App\\FullTest\\AuditTrait",
+    "line": 162,
+    "endLine": 174,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\AuditTrait::recordChange",
+        "kind": "method",
+        "name": "recordChange",
+        "fqn": "App\\FullTest\\AuditTrait::recordChange",
+        "line": 169,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$field",
+            "type": "string"
+          },
+          {
+            "name": "$old",
+            "type": "mixed"
+          },
+          {
+            "name": "$new",
+            "type": "mixed"
+          }
+        ],
+        "parent": "AuditTrait",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "enum_App\\FullTest\\Direction",
+    "kind": "enum",
+    "name": "Direction",
+    "fqn": "App\\FullTest\\Direction",
+    "line": 181,
+    "endLine": 202,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Direction::opposite",
+        "kind": "method",
+        "name": "opposite",
+        "fqn": "App\\FullTest\\Direction::opposite",
+        "line": 188,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "self",
+        "parameters": [],
+        "parent": "Direction",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\Direction::label",
+        "kind": "method",
+        "name": "label",
+        "fqn": "App\\FullTest\\Direction::label",
+        "line": 198,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "Direction",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "enum_App\\FullTest\\Status:",
+    "kind": "enum",
+    "name": "Status:",
+    "fqn": "App\\FullTest\\Status:",
+    "line": 207,
+    "endLine": 239,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Status:::label",
+        "kind": "method",
+        "name": "label",
+        "fqn": "App\\FullTest\\Status:::label",
+        "line": 217,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "Status:",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\Status:::isTerminal",
+        "kind": "method",
+        "name": "isTerminal",
+        "fqn": "App\\FullTest\\Status:::isTerminal",
+        "line": 222,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [],
+        "parent": "Status:",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\Status:::__toString",
+        "kind": "method",
+        "name": "__toString",
+        "fqn": "App\\FullTest\\Status:::__toString",
+        "line": 227,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "Status:",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\Status:::fromLabel",
+        "kind": "method",
+        "name": "fromLabel",
+        "fqn": "App\\FullTest\\Status:::fromLabel",
+        "line": 232,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "self",
+        "parameters": [
+          {
+            "name": "$label",
+            "type": "string"
+          }
+        ],
+        "parent": "Status:",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "enum_App\\FullTest\\Priority:",
+    "kind": "enum",
+    "name": "Priority:",
+    "fqn": "App\\FullTest\\Priority:",
+    "line": 244,
+    "endLine": 255,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Priority:::isHigherThan",
+        "kind": "method",
+        "name": "isHigherThan",
+        "fqn": "App\\FullTest\\Priority:::isHigherThan",
+        "line": 251,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [
+          {
+            "name": "$other",
+            "type": "self"
+          }
+        ],
+        "parent": "Priority:",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\Entity",
+    "kind": "class",
+    "name": "Entity",
+    "fqn": "App\\FullTest\\Entity",
+    "line": 260,
+    "endLine": 266,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Entity::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\Entity::__construct",
+        "line": 262,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "Entity",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\Route",
+    "kind": "class",
+    "name": "Route",
+    "fqn": "App\\FullTest\\Route",
+    "line": 269,
+    "endLine": 276,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Route::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\Route::__construct",
+        "line": 271,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "Route",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\Column",
+    "kind": "class",
+    "name": "Column",
+    "fqn": "App\\FullTest\\Column",
+    "line": 279,
+    "endLine": 287,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Column::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\Column::__construct",
+        "line": 281,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "Column",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\Validate",
+    "kind": "class",
+    "name": "Validate",
+    "fqn": "App\\FullTest\\Validate",
+    "line": 290,
+    "endLine": 296,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\Validate::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\Validate::__construct",
+        "line": 292,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "Validate",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\BaseModel",
+    "kind": "class",
+    "name": "BaseModel",
+    "fqn": "App\\FullTest\\BaseModel",
+    "line": 303,
+    "endLine": 404,
+    "namespace": "App\\FullTest",
+    "isAbstract": true,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\BaseModel::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\BaseModel::__construct",
+        "line": 331,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::__destruct",
+        "kind": "destructor",
+        "name": "__destruct",
+        "fqn": "App\\FullTest\\BaseModel::__destruct",
+        "line": 339,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::__clone",
+        "kind": "method",
+        "name": "__clone",
+        "fqn": "App\\FullTest\\BaseModel::__clone",
+        "line": 344,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::__toString",
+        "kind": "method",
+        "name": "__toString",
+        "fqn": "App\\FullTest\\BaseModel::__toString",
+        "line": 349,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::__debugInfo",
+        "kind": "method",
+        "name": "__debugInfo",
+        "fqn": "App\\FullTest\\BaseModel::__debugInfo",
+        "line": 354,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::boot",
+        "kind": "method",
+        "name": "boot",
+        "fqn": "App\\FullTest\\BaseModel::boot",
+        "line": 363,
+        "visibility": "protected",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::getInstanceCount",
+        "kind": "method",
+        "name": "getInstanceCount",
+        "fqn": "App\\FullTest\\BaseModel::getInstanceCount",
+        "line": 370,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::fill",
+        "kind": "method",
+        "name": "fill",
+        "fqn": "App\\FullTest\\BaseModel::fill",
+        "line": 375,
+        "visibility": "protected",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$attributes",
+            "type": "array"
+          }
+        ],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::getAttribute",
+        "kind": "method",
+        "name": "getAttribute",
+        "fqn": "App\\FullTest\\BaseModel::getAttribute",
+        "line": 383,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$key",
+            "type": "string"
+          },
+          {
+            "name": "$default",
+            "type": "mixed"
+          }
+        ],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::getRawRef",
+        "kind": "method",
+        "name": "getRawRef",
+        "fqn": "App\\FullTest\\BaseModel::getRawRef",
+        "line": 391,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [],
+        "parent": "BaseModel",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\BaseModel::make",
+        "kind": "method",
+        "name": "make",
+        "fqn": "App\\FullTest\\BaseModel::make",
+        "line": 399,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$data",
+            "type": "array"
+          }
+        ],
+        "parent": "BaseModel",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\User",
+    "kind": "class",
+    "name": "User",
+    "fqn": "App\\FullTest\\User",
+    "line": 414,
+    "endLine": 594,
+    "parent": "BaseModel",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": true,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\User::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\User::__construct",
+        "line": 424,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getId",
+        "kind": "method",
+        "name": "getId",
+        "fqn": "App\\FullTest\\User::getId",
+        "line": 442,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getUuid",
+        "kind": "method",
+        "name": "getUuid",
+        "fqn": "App\\FullTest\\User::getUuid",
+        "line": 443,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::__toString",
+        "kind": "method",
+        "name": "__toString",
+        "fqn": "App\\FullTest\\User::__toString",
+        "line": 444,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::toArray",
+        "kind": "method",
+        "name": "toArray",
+        "fqn": "App\\FullTest\\User::toArray",
+        "line": 446,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::fromArray",
+        "kind": "method",
+        "name": "fromArray",
+        "fqn": "App\\FullTest\\User::fromArray",
+        "line": 456,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$data",
+            "type": "array"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::count",
+        "kind": "method",
+        "name": "count",
+        "fqn": "App\\FullTest\\User::count",
+        "line": 464,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::validate",
+        "kind": "method",
+        "name": "validate",
+        "fqn": "App\\FullTest\\User::validate",
+        "line": 469,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::resolveType",
+        "kind": "method",
+        "name": "resolveType",
+        "fqn": "App\\FullTest\\User::resolveType",
+        "line": 474,
+        "visibility": "protected",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::tableName",
+        "kind": "method",
+        "name": "tableName",
+        "fqn": "App\\FullTest\\User::tableName",
+        "line": 476,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getLogChannel",
+        "kind": "method",
+        "name": "getLogChannel",
+        "fqn": "App\\FullTest\\User::getLogChannel",
+        "line": 478,
+        "visibility": "protected",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getStatus",
+        "kind": "method",
+        "name": "getStatus",
+        "fqn": "App\\FullTest\\User::getStatus",
+        "line": 482,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "Status",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getEmail",
+        "kind": "method",
+        "name": "getEmail",
+        "fqn": "App\\FullTest\\User::getEmail",
+        "line": 483,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getMaybeEmail",
+        "kind": "method",
+        "name": "getMaybeEmail",
+        "fqn": "App\\FullTest\\User::getMaybeEmail",
+        "line": 484,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "?string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getIdOrEmail",
+        "kind": "method",
+        "name": "getIdOrEmail",
+        "fqn": "App\\FullTest\\User::getIdOrEmail",
+        "line": 485,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int|string",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getIterableIds",
+        "kind": "method",
+        "name": "getIterableIds",
+        "fqn": "App\\FullTest\\User::getIterableIds",
+        "line": 486,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "iterable",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::addRoles",
+        "kind": "method",
+        "name": "addRoles",
+        "fqn": "App\\FullTest\\User::addRoles",
+        "line": 491,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$roleIds",
+            "type": "int ..."
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::normalizeEmail",
+        "kind": "method",
+        "name": "normalizeEmail",
+        "fqn": "App\\FullTest\\User::normalizeEmail",
+        "line": 499,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$email",
+            "type": "string &"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::setAvatar",
+        "kind": "method",
+        "name": "setAvatar",
+        "fqn": "App\\FullTest\\User::setAvatar",
+        "line": 505,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$url",
+            "type": "?string"
+          },
+          {
+            "name": "$size",
+            "type": "int"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::processCollection",
+        "kind": "method",
+        "name": "processCollection",
+        "fqn": "App\\FullTest\\User::processCollection",
+        "line": 512,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [
+          {
+            "name": "$col",
+            "type": "Countable&IteratorAggregate"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::setExternalId",
+        "kind": "method",
+        "name": "setExternalId",
+        "fqn": "App\\FullTest\\User::setExternalId",
+        "line": 518,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$id",
+            "type": "string|int"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::update",
+        "kind": "method",
+        "name": "update",
+        "fqn": "App\\FullTest\\User::update",
+        "line": 524,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::create",
+        "kind": "method",
+        "name": "create",
+        "fqn": "App\\FullTest\\User::create",
+        "line": 534,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "self",
+        "parameters": [
+          {
+            "name": "$data",
+            "type": "array"
+          }
+        ],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::getRegistry",
+        "kind": "method",
+        "name": "getRegistry",
+        "fqn": "App\\FullTest\\User::getRegistry",
+        "line": 543,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::permissions",
+        "kind": "method",
+        "name": "permissions",
+        "fqn": "App\\FullTest\\User::permissions",
+        "line": 550,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "Generator",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\User::closureVariety",
+        "kind": "method",
+        "name": "closureVariety",
+        "fqn": "App\\FullTest\\User::closureVariety",
+        "line": 559,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [],
+        "parent": "User",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\AbstractCollection",
+    "kind": "class",
+    "name": "AbstractCollection",
+    "fqn": "App\\FullTest\\AbstractCollection",
+    "line": 602,
+    "endLine": 641,
+    "namespace": "App\\FullTest",
+    "isAbstract": true,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::offsetExists",
+        "kind": "method",
+        "name": "offsetExists",
+        "fqn": "App\\FullTest\\AbstractCollection::offsetExists",
+        "line": 607,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [
+          {
+            "name": "$offset",
+            "type": "mixed"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::offsetGet",
+        "kind": "method",
+        "name": "offsetGet",
+        "fqn": "App\\FullTest\\AbstractCollection::offsetGet",
+        "line": 608,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$offset",
+            "type": "mixed"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::offsetSet",
+        "kind": "method",
+        "name": "offsetSet",
+        "fqn": "App\\FullTest\\AbstractCollection::offsetSet",
+        "line": 609,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$offset",
+            "type": "mixed"
+          },
+          {
+            "name": "$value",
+            "type": "mixed"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::offsetUnset",
+        "kind": "method",
+        "name": "offsetUnset",
+        "fqn": "App\\FullTest\\AbstractCollection::offsetUnset",
+        "line": 614,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$offset",
+            "type": "mixed"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::count",
+        "kind": "method",
+        "name": "count",
+        "fqn": "App\\FullTest\\AbstractCollection::count",
+        "line": 615,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::getIterator",
+        "kind": "method",
+        "name": "getIterator",
+        "fqn": "App\\FullTest\\AbstractCollection::getIterator",
+        "line": 616,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "ArrayIterator",
+        "parameters": [],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::first",
+        "kind": "method",
+        "name": "first",
+        "fqn": "App\\FullTest\\AbstractCollection::first",
+        "line": 621,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::last",
+        "kind": "method",
+        "name": "last",
+        "fqn": "App\\FullTest\\AbstractCollection::last",
+        "line": 624,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::filter",
+        "kind": "method",
+        "name": "filter",
+        "fqn": "App\\FullTest\\AbstractCollection::filter",
+        "line": 627,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$predicate",
+            "type": "Closure"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AbstractCollection::map",
+        "kind": "method",
+        "name": "map",
+        "fqn": "App\\FullTest\\AbstractCollection::map",
+        "line": 635,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$transform",
+            "type": "Closure"
+          }
+        ],
+        "parent": "AbstractCollection",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\UserCollection",
+    "kind": "class",
+    "name": "UserCollection",
+    "fqn": "App\\FullTest\\UserCollection",
+    "line": 648,
+    "endLine": 665,
+    "parent": "AbstractCollection",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\UserCollection::add",
+        "kind": "method",
+        "name": "add",
+        "fqn": "App\\FullTest\\UserCollection::add",
+        "line": 650,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$item",
+            "type": "mixed"
+          }
+        ],
+        "parent": "UserCollection",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\UserCollection::findByEmail",
+        "kind": "method",
+        "name": "findByEmail",
+        "fqn": "App\\FullTest\\UserCollection::findByEmail",
+        "line": 658,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "?User",
+        "parameters": [
+          {
+            "name": "$email",
+            "type": "string"
+          }
+        ],
+        "parent": "UserCollection",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\ValueObject",
+    "kind": "class",
+    "name": "ValueObject",
+    "fqn": "App\\FullTest\\ValueObject",
+    "line": 670,
+    "endLine": 687,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": true,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\ValueObject::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\ValueObject::__construct",
+        "line": 672,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "ValueObject",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\ValueObject::equals",
+        "kind": "method",
+        "name": "equals",
+        "fqn": "App\\FullTest\\ValueObject::equals",
+        "line": 678,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [
+          {
+            "name": "$other",
+            "type": "self"
+          }
+        ],
+        "parent": "ValueObject",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\ValueObject::withValue",
+        "kind": "method",
+        "name": "withValue",
+        "fqn": "App\\FullTest\\ValueObject::withValue",
+        "line": 683,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "self",
+        "parameters": [
+          {
+            "name": "$value",
+            "type": "string"
+          }
+        ],
+        "parent": "ValueObject",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\MagicClass",
+    "kind": "class",
+    "name": "MagicClass",
+    "fqn": "App\\FullTest\\MagicClass",
+    "line": 692,
+    "endLine": 728,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\MagicClass::__get",
+        "kind": "method",
+        "name": "__get",
+        "fqn": "App\\FullTest\\MagicClass::__get",
+        "line": 698,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__set",
+        "kind": "method",
+        "name": "__set",
+        "fqn": "App\\FullTest\\MagicClass::__set",
+        "line": 699,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          },
+          {
+            "name": "$val",
+            "type": "mixed"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__isset",
+        "kind": "method",
+        "name": "__isset",
+        "fqn": "App\\FullTest\\MagicClass::__isset",
+        "line": 700,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "bool",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__unset",
+        "kind": "method",
+        "name": "__unset",
+        "fqn": "App\\FullTest\\MagicClass::__unset",
+        "line": 701,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__invoke",
+        "kind": "method",
+        "name": "__invoke",
+        "fqn": "App\\FullTest\\MagicClass::__invoke",
+        "line": 702,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$args",
+            "type": "mixed ..."
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__call",
+        "kind": "method",
+        "name": "__call",
+        "fqn": "App\\FullTest\\MagicClass::__call",
+        "line": 704,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          },
+          {
+            "name": "$args",
+            "type": "array"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__callStatic",
+        "kind": "method",
+        "name": "__callStatic",
+        "fqn": "App\\FullTest\\MagicClass::__callStatic",
+        "line": 712,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "mixed",
+        "parameters": [
+          {
+            "name": "$name",
+            "type": "string"
+          },
+          {
+            "name": "$args",
+            "type": "array"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__serialize",
+        "kind": "method",
+        "name": "__serialize",
+        "fqn": "App\\FullTest\\MagicClass::__serialize",
+        "line": 717,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__unserialize",
+        "kind": "method",
+        "name": "__unserialize",
+        "fqn": "App\\FullTest\\MagicClass::__unserialize",
+        "line": 718,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$d",
+            "type": "array"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__sleep",
+        "kind": "method",
+        "name": "__sleep",
+        "fqn": "App\\FullTest\\MagicClass::__sleep",
+        "line": 719,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__wakeup",
+        "kind": "method",
+        "name": "__wakeup",
+        "fqn": "App\\FullTest\\MagicClass::__wakeup",
+        "line": 720,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [],
+        "parent": "MagicClass",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\MagicClass::__set_state",
+        "kind": "method",
+        "name": "__set_state",
+        "fqn": "App\\FullTest\\MagicClass::__set_state",
+        "line": 722,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "static",
+        "parameters": [
+          {
+            "name": "$properties",
+            "type": "array"
+          }
+        ],
+        "parent": "MagicClass",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\AppException",
+    "kind": "class",
+    "name": "AppException",
+    "fqn": "App\\FullTest\\AppException",
+    "line": 733,
+    "endLine": 745,
+    "parent": "RuntimeException",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\AppException::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\AppException::__construct",
+        "line": 735,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "AppException",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\AppException::getContext",
+        "kind": "method",
+        "name": "getContext",
+        "fqn": "App\\FullTest\\AppException::getContext",
+        "line": 744,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "string",
+        "parameters": [],
+        "parent": "AppException",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\ValidationException",
+    "kind": "class",
+    "name": "ValidationException",
+    "fqn": "App\\FullTest\\ValidationException",
+    "line": 747,
+    "endLine": 760,
+    "parent": "AppException",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\ValidationException::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\ValidationException::__construct",
+        "line": 752,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [
+          {
+            "name": "$errors",
+            "type": "array"
+          },
+          {
+            "name": "$context",
+            "type": "string"
+          }
+        ],
+        "parent": "ValidationException",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\ValidationException::getErrors",
+        "kind": "method",
+        "name": "getErrors",
+        "fqn": "App\\FullTest\\ValidationException::getErrors",
+        "line": 759,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "ValidationException",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\NotFoundException",
+    "kind": "class",
+    "name": "NotFoundException",
+    "fqn": "App\\FullTest\\NotFoundException",
+    "line": 762,
+    "endLine": 768,
+    "parent": "AppException",
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\NotFoundException::__construct",
+        "kind": "constructor",
+        "name": "__construct",
+        "fqn": "App\\FullTest\\NotFoundException::__construct",
+        "line": 764,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [
+          {
+            "name": "$resource",
+            "type": "string"
+          },
+          {
+            "name": "$id",
+            "type": "int|string"
+          }
+        ],
+        "parent": "NotFoundException",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\FiberDemo",
+    "kind": "class",
+    "name": "FiberDemo",
+    "fqn": "App\\FullTest\\FiberDemo",
+    "line": 773,
+    "endLine": 789,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\FiberDemo::createFiber",
+        "kind": "method",
+        "name": "createFiber",
+        "fqn": "App\\FullTest\\FiberDemo::createFiber",
+        "line": 775,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "Fiber",
+        "parameters": [],
+        "parent": "FiberDemo",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\FiberDemo::runFiber",
+        "kind": "method",
+        "name": "runFiber",
+        "fqn": "App\\FullTest\\FiberDemo::runFiber",
+        "line": 784,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$fiber",
+            "type": "Fiber"
+          }
+        ],
+        "parent": "FiberDemo",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\CallableDemo",
+    "kind": "class",
+    "name": "CallableDemo",
+    "fqn": "App\\FullTest\\CallableDemo",
+    "line": 794,
+    "endLine": 808,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\CallableDemo::staticMethod",
+        "kind": "method",
+        "name": "staticMethod",
+        "fqn": "App\\FullTest\\CallableDemo::staticMethod",
+        "line": 796,
+        "visibility": "public",
+        "isStatic": true,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [
+          {
+            "name": "$x",
+            "type": "int"
+          }
+        ],
+        "parent": "CallableDemo",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\CallableDemo::instanceMethod",
+        "kind": "method",
+        "name": "instanceMethod",
+        "fqn": "App\\FullTest\\CallableDemo::instanceMethod",
+        "line": 797,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "int",
+        "parameters": [
+          {
+            "name": "$x",
+            "type": "int"
+          }
+        ],
+        "parent": "CallableDemo",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\CallableDemo::getCallables",
+        "kind": "method",
+        "name": "getCallables",
+        "fqn": "App\\FullTest\\CallableDemo::getCallables",
+        "line": 799,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "array",
+        "parameters": [],
+        "parent": "CallableDemo",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "class_App\\FullTest\\IntersectionDemo",
+    "kind": "class",
+    "name": "IntersectionDemo",
+    "fqn": "App\\FullTest\\IntersectionDemo",
+    "line": 813,
+    "endLine": 829,
+    "namespace": "App\\FullTest",
+    "isAbstract": false,
+    "isFinal": false,
+    "isReadonly": false,
+    "children": [
+      {
+        "id": "method_App\\FullTest\\IntersectionDemo::process",
+        "kind": "method",
+        "name": "process",
+        "fqn": "App\\FullTest\\IntersectionDemo::process",
+        "line": 815,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "Countable&IteratorAggregate",
+        "parameters": [
+          {
+            "name": "$col",
+            "type": "Countable&IteratorAggregate"
+          }
+        ],
+        "parent": "IntersectionDemo",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\IntersectionDemo::log",
+        "kind": "method",
+        "name": "log",
+        "fqn": "App\\FullTest\\IntersectionDemo::log",
+        "line": 820,
+        "visibility": "public",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "returnType": "void",
+        "parameters": [
+          {
+            "name": "$error",
+            "type": "Stringable&\\Throwable"
+          }
+        ],
+        "parent": "IntersectionDemo",
+        "children": []
+      },
+      {
+        "id": "method_App\\FullTest\\IntersectionDemo::wrap",
+        "kind": "method",
+        "name": "wrap",
+        "fqn": "App\\FullTest\\IntersectionDemo::wrap",
+        "line": 825,
+        "visibility": "private",
+        "isStatic": false,
+        "isAbstract": false,
+        "isFinal": false,
+        "parameters": [],
+        "parent": "IntersectionDemo",
+        "children": []
+      }
+    ]
+  },
+  {
+    "id": "const_App\\FullTest\\APP_VERSION",
+    "kind": "constant",
+    "name": "APP_VERSION",
+    "fqn": "App\\FullTest\\APP_VERSION",
+    "line": 36,
+    "value": "'3.0.0'",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\APP_DEBUG",
+    "kind": "constant",
+    "name": "APP_DEBUG",
+    "fqn": "App\\FullTest\\APP_DEBUG",
+    "line": 37,
+    "value": "false",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\APP_TIMEZONE",
+    "kind": "constant",
+    "name": "APP_TIMEZONE",
+    "fqn": "App\\FullTest\\APP_TIMEZONE",
+    "line": 38,
+    "value": "'UTC'",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\MAX_RETRIES",
+    "kind": "constant",
+    "name": "MAX_RETRIES",
+    "fqn": "App\\FullTest\\MAX_RETRIES",
+    "line": 39,
+    "value": "3",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\PI_APPROX",
+    "kind": "constant",
+    "name": "PI_APPROX",
+    "fqn": "App\\FullTest\\PI_APPROX",
+    "line": 40,
+    "value": "3.14159265358979",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\EMPTY_ARRAY",
+    "kind": "constant",
+    "name": "EMPTY_ARRAY",
+    "fqn": "App\\FullTest\\EMPTY_ARRAY",
+    "line": 41,
+    "value": "[]",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "const_App\\FullTest\\NULL_VALUE",
+    "kind": "constant",
+    "name": "NULL_VALUE",
+    "fqn": "App\\FullTest\\NULL_VALUE",
+    "line": 42,
+    "value": "null",
+    "namespace": "App\\FullTest",
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$greet",
+    "kind": "closure",
+    "name": "$greet",
+    "fqn": "App\\FullTest\\$greet",
+    "line": 972,
+    "parameters": [
+      {
+        "name": "$name",
+        "type": "string"
+      },
+      {
+        "name": "$greeting",
+        "type": "string"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$staticGreet",
+    "kind": "closure",
+    "name": "$staticGreet",
+    "fqn": "App\\FullTest\\$staticGreet",
+    "line": 977,
+    "parameters": [
+      {
+        "name": "$name",
+        "type": "string"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$square",
+    "kind": "closure",
+    "name": "$square",
+    "fqn": "App\\FullTest\\$square",
+    "line": 982,
+    "returnType": "",
+    "parameters": [
+      {
+        "name": "$x",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$identity",
+    "kind": "closure",
+    "name": "$identity",
+    "fqn": "App\\FullTest\\$identity",
+    "line": 985,
+    "returnType": "",
+    "parameters": [
+      {
+        "name": "$x",
+        "type": "string|int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$add",
+    "kind": "closure",
+    "name": "$add",
+    "fqn": "App\\FullTest\\$add",
+    "line": 988,
+    "returnType": "",
+    "parameters": [
+      {
+        "name": "$a",
+        "type": "int"
+      },
+      {
+        "name": "$b",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$maybeUpper",
+    "kind": "closure",
+    "name": "$maybeUpper",
+    "fqn": "App\\FullTest\\$maybeUpper",
+    "line": 991,
+    "returnType": "",
+    "parameters": [
+      {
+        "name": "$s",
+        "type": "?string"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$exceedsThreshold",
+    "kind": "closure",
+    "name": "$exceedsThreshold",
+    "fqn": "App\\FullTest\\$exceedsThreshold",
+    "line": 995,
+    "parameters": [
+      {
+        "name": "$n",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$increment",
+    "kind": "closure",
+    "name": "$increment",
+    "fqn": "App\\FullTest\\$increment",
+    "line": 1001,
+    "parameters": [
+      {
+        "name": "$by",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$multiplierFactory",
+    "kind": "closure",
+    "name": "$multiplierFactory",
+    "fqn": "App\\FullTest\\$multiplierFactory",
+    "line": 1006,
+    "parameters": [
+      {
+        "name": "$factor",
+        "type": "int"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "closure_App\\FullTest\\$getVersion",
+    "kind": "closure",
+    "name": "$getVersion",
+    "fqn": "App\\FullTest\\$getVersion",
+    "line": 1011,
+    "returnType": "",
+    "parameters": [],
+    "children": []
+  }
+]
